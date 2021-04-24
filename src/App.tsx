@@ -5,7 +5,7 @@ import {ApolloClient} from 'apollo-client';
 import {HttpLink} from 'apollo-link-http';
 import {InMemoryCache} from 'apollo-cache-inmemory';
 
-const token = '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';
+const token = 'ваш токен github api';
 
 const httpLink = {
     uri: 'https://api.github.com/graphql',
